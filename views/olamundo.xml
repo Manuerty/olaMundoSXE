@@ -27,6 +27,18 @@
             </field>
         </record>
 
+        <record model="ir.ui.view" id="olamundo_form_view_list">
+            <field name="name">odoo_olamundo.list</field>
+            <field name="model">odoo_olamundo.olamundo</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="outrocampo"/>
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+
 
         <!-- explicit list view definition -->
         <!--
