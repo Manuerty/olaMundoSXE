@@ -7,6 +7,7 @@ class olamundo(models.Model):
     _description = 'Exemplo de olamundo'
 
     name = fields.Char(string="Ola mundo")
+    outrocampo = fields.Char(string="Outro campo")
 
     # name = fields.Char()
     # value = fields.Integer()
