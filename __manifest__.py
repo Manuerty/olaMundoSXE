@@ -22,7 +22,7 @@ O noso proxcto de Odoo
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/olamundo.xml',
         'views/templates.xml',
         'views/menu.xml',
